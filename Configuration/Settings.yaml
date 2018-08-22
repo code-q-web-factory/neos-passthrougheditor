@@ -1,0 +1,7 @@
+Neos:
+  Neos:
+    Ui:
+      resources:
+        javascript:
+          'CodeQ.PassthroughEditor:PassthroughEditor':
+            resource: resource://CodeQ.PassthroughEditor/Public/JavaScript/PassthroughEditor/Plugin.js
