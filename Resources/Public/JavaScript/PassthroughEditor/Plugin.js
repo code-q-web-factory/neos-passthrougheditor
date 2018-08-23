@@ -264,7 +264,7 @@ var PassthroughEditor = (_temp = _class = function (_Component) {
                 options = _props.options;
 
 
-            if (value !== options.value) {
+            if (value != options.value) {
                 commit(options.value);
             }
             return null;

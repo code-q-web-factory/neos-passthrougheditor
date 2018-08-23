@@ -11,7 +11,7 @@ export default class PassthroughEditor extends Component {
     render() {
         const {value, commit, options} = this.props;
 
-        if (value !== options.value) {
+        if (value != options.value) {
             commit(options.value);
         }
         return null;
